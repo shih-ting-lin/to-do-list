@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        input::-ms-input-placeholder{text-align: center;}
+        input::-webkit-input-placeholder{text-align: center;}
+        textarea::-ms-input-placeholder{text-align: center;}
+        textarea::-webkit-input-placeholder{text-align: center;}   
+    </style>
+</head>
+<center>
+    <header>
+        <h1>To-do-list</h1>
+    </header>
+    
+    <p>YYYY/MM/DD</p>
+    <div class="title" style="text-align:center;">
+        <input type="text" id="title" placeholder="請輸入時間"/>
+    </div>
+    <p>待辦事項</p>
+    <div class="content" style="text-align:center;">
+        <textarea style=color:grey id="content" rows="8" placeholder="請輸入..."></textarea>
+    </div>
+    
+    <br/>
+    <div class="btn">
+        <botton id="btn">加入</botton></center>
+    </div>
+    <br/>    
+    <hr>
+    <div id="list"></div>
+    <script src="./scrip.js"></script>
+</body>
+</html>
