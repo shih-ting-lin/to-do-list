@@ -15,7 +15,7 @@ btn.addEventListener("click", function(){
     </div>
     `;
     title.value = "";
-    content.value = ""
+    content.value = "";
     }
 })
  
